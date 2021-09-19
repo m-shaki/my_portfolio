@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #D97706;
+    --dark-grey: #9CA3AF;
+    --off-white:#F3F4F6;
+
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+
+
+
+/* container part  */
+
+
+.container {
+    padding: 0.5rem 1rem;
+}
+
+.container-center {
+    max-width: 650px;
+    margin: auto;
+}
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/* container part over  */
+
+
+
+/* link part  */
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 00.7rem 0rem ;
+}
+
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+
+
+}
+
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+}
+
+
+
+/* link part over  */
+
+
+/* lists part  */
+
+.list-non-bullet {
+    list-style: none;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.3rem;
+
+}
+
+
+
+
+/* list part over  */
+
+
+/* nav bar part  */
+
+
+
+.nav-bar{
+    margin:0;
+    display:flex;
+    width:auto;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom-left-radius: 0.5rem;
+    font-size:1.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding:1rem 1rem;
+    background-color: var(--primary-color);
+   
+}
+
+@media(max-width:450px){
+    
+    .nav-bar{
+        font-size: 1rem;
+    
+    }
+   
+}
+
+
+.link-active{
+    font-weight: bold;
+}
+
+.nav-bar-item{
+    padding:1rem 1rem;
+    text-decoration:none;
+    color:white;
+    border-radius: 0.5rem;
+
+}
+
+.nav-bar-item:hover{
+    background:#B45309;
+
+}
+
+
+/* nav bar part over  */
+
+
+/* header part  */
+
+.header{
+    margin:1rem auto 5rem auto;
+    text-align: center;
+    
+    
+
+}
+
+
+.header-hero{
+    color:var(--dark-grey);
+    font-size: 2rem;
+    margin:1rem 0rem;
+    
+
+}
+
+.header-image{
+    max-width:30%;
+    max-height: 30%;
+    margin:2rem;
+}
+
+
+@media(max-width:450px){
+    .header-image{
+        max-width: 60%;
+        max-height: 50%;
+    }
+}
+
+
+.header-hero-inverted{
+    color: var(--primary-color);
+}
+
+/* header part over  */
+
+
+/* section part  */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+   padding:1rem 0rem ;
+
+}
+
+.ow{
+   background-color: var(--off-white);
+}
+
+
+
+/* section part over  */
+
+
+/* footer part  */
+
+/* 
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 0.5rem;
+    margin-bottom: 0rem;
+}
+.footer .footer-head{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    
+}
+.footer-bar{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+.footer-bar-item{
+    padding:1rem;
+    text-decoration: none;
+    color:white;
+    font-size:1.2rem;
+}
+.footer-bar-item:hover{
+    font-weight:bold;
+    
+}
+@media(max-width:450px){
+    .footer-head{
+        font-size: 1.2rem;
+    }
+} */
+
+
+
+footer {
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    padding: 0px 15px 10px 15px;
+}
+
+
+
+/* footer part over  */
+
+/* blog part  */
+
+.blog-head{
+
+    text-decoration: none;
+    color:var(--primary-color);
+
+}
+
+
+
+/* blog pages */
+
+
+#blog-page{
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
+}
+
+
+
+#blog1image{
+    max-width: 60%;
+    object-fit: cover;
+}
+
+#blog-main{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+
+/* blog2 starting */
+
+#blog-heading{
+    text-align: center;
+}
+
+.blog-sub-heading{
+    text-align: left;
+}
+
+.blog-section{
+    margin-top: 2rem;
+}
+
+.blog-code{
+    line-height: 0;
+    margin-top: 20rem;
+    text-align: left;
+    background-color: wheat;
+    border-left:10px solid black;
+}
